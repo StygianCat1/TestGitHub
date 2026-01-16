@@ -21,7 +21,6 @@ public class S_HelloWorld : MonoBehaviour
     {
         Debug.Log("Miaou");
         Debug.Log (A);
-        Vcerveau();
     }
 
     // Update is called once per frame
