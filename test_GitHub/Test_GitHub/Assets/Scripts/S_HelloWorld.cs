@@ -33,7 +33,7 @@ public class S_HelloWorld : MonoBehaviour
 
         if (_numberOfTick > DarknessLock)
         {
-            print("Dakrness arrêts tes conneries");
+            print("Darkness arrêts tes conneries");
         }
         
         else
