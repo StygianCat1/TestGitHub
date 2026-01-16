@@ -6,6 +6,14 @@ public class S_HelloWorld : MonoBehaviour
     private float A = 10 / 3;
     
     [SerializeField] private int _numberOfTick = 0;
+    private enum State
+    {
+        M,
+        Mi,
+        Mia,
+        Miao,
+        Miaou
+    }
     
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -23,5 +31,6 @@ public class S_HelloWorld : MonoBehaviour
         print("mIAOU");
         _numberOfTick++;
         Debug.Log(_numberOfTick);
+        Debug.Log(State.Miao);
     }
 }
