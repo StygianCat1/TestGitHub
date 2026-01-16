@@ -30,6 +30,9 @@ public class S_HelloWorld : MonoBehaviour
         print("mIAOU");
         _numberOfTick++;
         Debug.Log(_numberOfTick);
-        Debug.Log(State.Miao);
+        If(Type.GetType(State.Miaou) == typeof(int), () =>;
+        {
+            Debug.Log("l'enum state des chats est de " + State.Mia + " puisque le dieu Miaou le veux");
+        }
     }
 }
