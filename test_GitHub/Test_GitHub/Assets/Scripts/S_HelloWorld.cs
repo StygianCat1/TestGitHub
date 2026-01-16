@@ -24,9 +24,4 @@ public class S_HelloWorld : MonoBehaviour
         _numberOfTick++;
         Debug.Log(_numberOfTick);
     }
-    
-    void Vcerveau()
-    {
-        Debug.Log("Vcerveau");
-    }
 }
