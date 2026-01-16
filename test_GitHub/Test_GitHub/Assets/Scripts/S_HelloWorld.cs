@@ -21,6 +21,8 @@ public class S_HelloWorld : MonoBehaviour
     {
         Debug.Log("Miaou");
         Debug.Log (A);
+        
+        Bloodborne2();
     }
 
     // Update is called once per frame
@@ -31,5 +33,11 @@ public class S_HelloWorld : MonoBehaviour
         _numberOfTick++;
         Debug.Log(_numberOfTick);
         Debug.Log(State.Miao);
+    }
+    
+    
+    void Bloodborne2()
+    {
+        
     }
 }
