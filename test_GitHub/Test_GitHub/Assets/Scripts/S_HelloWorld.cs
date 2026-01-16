@@ -4,6 +4,7 @@ using UnityEngine;
 public class S_HelloWorld : MonoBehaviour
 {
     private float A = 10 / 3;
+    [SerializeField] private int DarknessLock = 1;
     
     [SerializeField] private int _numberOfTick = 0;
     private enum State
@@ -29,7 +30,17 @@ public class S_HelloWorld : MonoBehaviour
         print("Miaou");
         print("mIAOU");
         _numberOfTick++;
-        Debug.Log(_numberOfTick);
-        Debug.Log(State.Miao);
+
+        if (_numberOfTick > DarknessLock)
+        {
+            print("Dakrness arrêts tes conneries");
+        }
+        
+        else
+        {
+            Debug.Log(_numberOfTick);
+            Debug.Log(State.Miao);   
+        }
+        
     }
 }
