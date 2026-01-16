@@ -6,11 +6,17 @@ public class S_HelloWorld : MonoBehaviour
     void Start()
     {
         Debug.Log("Miaou");
+        Vcerveau();
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+    
+    void Vcerveau()
+    {
+        Debug.Log("Vcerveau");
     }
 }
