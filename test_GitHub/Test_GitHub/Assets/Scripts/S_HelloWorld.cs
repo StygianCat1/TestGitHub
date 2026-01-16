@@ -10,7 +10,6 @@ public class S_HelloWorld : MonoBehaviour
     void Start()
     {
         Debug.Log("Miaou");
-        Vcerveau();
     }
 
     // Update is called once per frame
@@ -18,10 +17,5 @@ public class S_HelloWorld : MonoBehaviour
     {
         _numberOfTick++;
         Debug.Log(_numberOfTick);
-    }
-    
-    void Vcerveau()
-    {
-        Debug.Log("Vcerveau");
     }
 }
